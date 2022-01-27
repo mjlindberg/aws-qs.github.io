@@ -14,9 +14,3 @@ Welcome to aws-quickdeploy's documentation!
    awslightsail
    testapp
 
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`

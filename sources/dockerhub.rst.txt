@@ -14,7 +14,7 @@ Create a public repository
 
 1. Create a public repository, call it :code:`cali-app`
 
-    .. image:: _static/dockerhub-registry.jpg
+    .. image:: static/dockerhub-registry.jpg
 
 
 2. In your Terminal login to your docker repository
@@ -46,7 +46,7 @@ Create a public repository
 Your image is now available from the dockerhub repository and can be deployed
 to a cloud provider, such as AWS.
 
-    .. image:: _static/dockerhub-image.png
+    .. image:: static/dockerhub-image.png
 
 .. note::
 

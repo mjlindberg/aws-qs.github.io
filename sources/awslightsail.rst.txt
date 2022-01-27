@@ -6,11 +6,11 @@ Deploy your app to AWS
 1. Sign in to your aws account at `aws login`_
 2. Open the *Lightsail* service
 
-   .. image:: _static/aws-lightsail-open.png
+   .. image:: static/aws-lightsail-open.png
 
    The service will show a dashboard as follows:
 
-   .. image:: _static/aws-lightsail-home.png
+   .. image:: static/aws-lightsail-home.png
 
 3. Deploy your image
 
@@ -30,7 +30,7 @@ Deploy your app to AWS
 
 4. Check the apps log
 
-    .. image:: _static/aws-lightsail-log.png
+    .. image:: static/aws-lightsail-log.png
 
 
 

@@ -1,0 +1,38 @@
+Deploy your app to AWS
+----------------------
+
+.. _aws login: https://console.aws.amazon.com
+
+1. Sign in to your aws account at `aws login`_
+2. Open the *Lightsail* service
+
+   .. image:: _static/aws-lightsail-open.png
+
+   The service will show a dashboard as follows:
+
+   .. image:: _static/aws-lightsail-home.png
+
+3. Deploy your image
+
+   1. Select *Containers* > *Create container service*
+   2. Choose the *Nano* capacity
+   3. Select *Set up deployment* > Specify a custom deployment::
+
+      Container-name: :code:`cali-app`
+      Image: :code:`<reponame>/cali-app:latest`
+      Configuration: *(leave as is)*
+      Port: :code:`5000`, protocol http
+      Public Endpoint: Select the :code:`cali-app` container
+      (port 5000, health check path /)
+   4. Create container service
+
+   It  will take a few minutes until the app has been deployed
+
+4. Check the apps log
+
+    .. image:: _static/aws-lightsail-log.png
+
+
+
+
+
